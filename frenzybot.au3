@@ -33,7 +33,7 @@ while GuiGetMsg() <> $GUI_EVENT_CLOSE
    $msg = GuiGetMsg()
    Select
       Case $msg = $btnStart
-         WinActivate("Guild Wars")
+         WinActivate("insert exe window name here") ;change this to suite your program that you want to spam with
          Sleep(2000)
 ;         IF $intCount = -1 THEN
 ;            while 1
@@ -46,8 +46,7 @@ while GuiGetMsg() <> $GUI_EVENT_CLOSE
                Sleep($intDelay * 1000)
             next
 ;         EndIf
-;      Case $msg = $btnStop
-;         ExitLoop
+;      Case $msg = $btnStop'
       Case $msg = $btnExit
          Exit
    EndSelect
